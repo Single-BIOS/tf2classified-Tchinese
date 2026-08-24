@@ -118,9 +118,9 @@
 
 // General
 "TF_playerid_sameteam"					"%s1%s2"
-"TF_playerid_diffteam"					"%s1（敌人） %s2"
+"TF_playerid_diffteam"					"%s1敌人：%s2"
 "TF_playerid_noteam"					"%s1"
-"TF_playerid_friendlyspy_disguise"		"伪装成（%s1 %s2）"
+"TF_playerid_friendlyspy_disguise"		"伪装成 %s1 %s2"
 
 "TF_playerid_wpn"						"%s1"
 "TF_playerid_wpn_ammo"					"%s1  -  弹药：%s2"
@@ -144,18 +144,16 @@
 "TF_playerid_object_building"			"正在建造..."
 
 "TF_playerid_object_level"				"等级：%s1"
-"TF_playerid_object_level_upgrade"		"等级：%s1  -  升级进度：%s2"
-"TF_playerid_object_level_upgrading"	"等级：%s1  -  正在升级..."
-"TF_playerid_object_level_building"		"等级：%s1  -  正在建造..."
+"TF_playerid_object_level_upgrade"		"(等级：%s1) 升级进度 %s2"
+"TF_playerid_object_level_upgrading"	"(等级：%s1) 正在升级..."
+"TF_playerid_object_level_building"		"(等级：%s1) 正在建造..."
 
-"TF_playerid_object_no_entrance"		"  -  没有传送装置入口!"
-"TF_playerid_object_no_exit"			"  -  没有传送装置出口!"
-"TF_playerid_object_recharging"			"  -  重新充能：%s1%"
+"TF_playerid_teleporter_no_entrance"	"  -  没有匹配的传送装置入口!"
+"TF_playerid_teleporter_no_exit"		"  -  没有匹配的传送装置出口!"
+"TF_playerid_object_recharging"			"  -  重新充能中：%s1%"
 
 "TF_playerid_object_status_effect"		"(%s1) "
-"TF_playerid_object_disabled"			"被阻止"
-"TF_playerid_object_flooded"			"被淹没"
-"TF_playerid_object_sapped"				"被入侵"
+"TF_playerid_object_flooded"			"被水淹没"
 
 "TF_playerid_carrying"					"正在搬运：%s1"
 "TF_playerid_carrying_lvl"				"正在搬运：%s1（等级：%s2）"

@@ -1,4 +1,4 @@
-"lang"
+﻿"lang"
 {
 "Language" "Ukrainian"
 "Tokens"
@@ -121,9 +121,10 @@
 "TF_playerid_diffteam"					"%s1(Ворог) %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"Замаскований (%s1 %s2)"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  Набої: %s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  Набої: %s2"
+
 "TF_playerid_wpn"						"%s1"
+"TF_playerid_wpn_ammo"					"%s1  -  Набої: %s2"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  Набої: %s2 (%s3)"
 
 // Boosts
 "TF_playerid_healer"					"(Лікар) "
@@ -138,18 +139,22 @@
 "TF_playerid_object_diffteam"			"%s1 ворога (%s2)"
 "TF_playerid_object_mini"				"Міні-%s1 (%s2)"
 "TF_playerid_object_mode"				"%s1 %s3 (%s2)"
-"TF_playerid_object_level"				"Рівень %s1"
-"TF_playerid_object_upgrade"			"Поліпшення: %s1"
-"TF_playerid_object_upgrade_level"		"Рівень %s1  -  Поліпшення: %s2"
-"TF_playerid_object_upgrading"			"Поліпшення..."
-"TF_playerid_object_upgrading_level"	"Рівень %s1  -  Поліпшення..."
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"Зводиться..."
-"TF_playerid_object_building_level"		"Рівень %s1  -  Зводиться..."
-"TF_playerid_object_tranq"				" (САБОТОВАНО)"
+
+"TF_playerid_object_level"				"Рівень %s1"
+"TF_playerid_object_level_upgrade"		"(Рівень %s1)  -  Покращення: %s2"
+"TF_playerid_object_level_upgrading"	"(Рівень %s1)  -  Покращення..."
+"TF_playerid_object_level_building"		"(Рівень %s1)  -  Зводиться..."
+
 "TF_playerid_teleporter_no_entrance"	"  -  Немає входу телепорту"
 "TF_playerid_teleporter_no_exit"		"  -  Немає виходу телепорту"
 "TF_playerid_object_recharging"			"  -  Перезарядка: %s1%"
+
+"TF_playerid_object_status_effect"		"(%s1) "
 "TF_playerid_object_flooded"			"Затоплено"
+
 "TF_playerid_carrying"					"Транспортує: %s1"
 "TF_playerid_carrying_lvl"				"Транспортує: %s1 (Рівень %s2)"
 
