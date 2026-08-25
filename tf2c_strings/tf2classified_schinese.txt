@@ -118,9 +118,9 @@
 
 // General
 "TF_playerid_sameteam"					"%s1%s2"
-"TF_playerid_diffteam"					"%s1敌人：%s2"
+"TF_playerid_diffteam"					"%s1（敌人） %s2"
 "TF_playerid_noteam"					"%s1"
-"TF_playerid_friendlyspy_disguise"		"伪装成 %s1 %s2"
+"TF_playerid_friendlyspy_disguise"		"伪装成（%s1 %s2）"
 
 "TF_playerid_wpn"						"%s1"
 "TF_playerid_wpn_ammo"					"%s1  -  弹药：%s2"
@@ -144,16 +144,18 @@
 "TF_playerid_object_building"			"正在建造..."
 
 "TF_playerid_object_level"				"等级：%s1"
-"TF_playerid_object_level_upgrade"		"(等级：%s1) 升级进度 %s2"
-"TF_playerid_object_level_upgrading"	"(等级：%s1) 正在升级..."
-"TF_playerid_object_level_building"		"(等级：%s1) 正在建造..."
+"TF_playerid_object_level_upgrade"		"等级：%s1  -  升级进度：%s2"
+"TF_playerid_object_level_upgrading"	"等级：%s1  -  正在升级..."
+"TF_playerid_object_level_building"		"等级：%s1  -  正在建造..."
 
-"TF_playerid_teleporter_no_entrance"	"  -  没有匹配的传送装置入口!"
-"TF_playerid_teleporter_no_exit"		"  -  没有匹配的传送装置出口!"
-"TF_playerid_object_recharging"			"  -  重新充能中：%s1%"
+"TF_playerid_object_no_entrance"		"  -  没有传送装置入口!"
+"TF_playerid_object_no_exit"			"  -  没有传送装置出口!"
+"TF_playerid_object_recharging"			"  -  重新充能：%s1%"
 
 "TF_playerid_object_status_effect"		"(%s1) "
-"TF_playerid_object_flooded"			"被水淹没"
+"TF_playerid_object_disabled"			"被阻止"
+"TF_playerid_object_flooded"			"被淹没"
+"TF_playerid_object_sapped"				"被入侵"
 
 "TF_playerid_carrying"					"正在搬运：%s1"
 "TF_playerid_carrying_lvl"				"正在搬运：%s1（等级：%s2）"
@@ -1582,7 +1584,7 @@
 "TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_NAME"			"世上最好的老板"
 "TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_DESC"			"让你的队友在你雨伞的增益效果加强下杀死 3 名敌人。"
 "TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_NAME"				"看着点那位小人物"
-"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_DESC"				"在护送目标还活着的情况下杀死 20 个攻击你护送目标的敌人。"
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_DESC"				"在你的 VIP 还活着的情况下杀死 20 个试图攻击他的敌人。"
 "TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_NAME"		"我，詹姆斯邦德"
 "TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_DESC"		"在一次生命内使用左轮手枪击杀 3 名敌人。"
 "TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_NAME"		"燃烧的记忆"
