@@ -1163,7 +1163,7 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_Menu_Welcome"			"Willkommen zurück,"
 "TF_Menu_Name"				"%playername%!"
 
-"TF_Menu_HideName"			"[ZENSIERT]"
+"TF_Menu_StreamerMode"		"Streamer-Modus"
 
 "TF_Menu_ResumeGame"		"Fortsetzen"
 "TF_Menu_Mute"				"Spieler stummschalten"
@@ -1184,9 +1184,12 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_Menu_Quit"				"Spiel beenden"
 "TF_Menu_Disconnect"		"Verbindung trennen"
 
-"TF_Menu_Blog"				"TF2C Webseite"
+"TF_Menu_Blog"				"Webseite"
 "TF_Menu_ReportBug"			"Fehler melden"
 "TF_Menu_Donate"			"Spenden"
+
+"TF_Menu_ShowFriends"		"Freundesliste zeigen"
+"TF_Menu_HideFriends"		"Freundesliste schließen"
 
 "TF_Friends_Title"					"Freunde (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"Spielt TF2C"
@@ -1198,6 +1201,10 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_Friends_Status_Online"			"Online"
 "TF_Friends_Status_Away"			"Abwesend"
 "TF_Friends_Status_Offline"			"Offline"
+
+"TF_RichPresence_State_InServer"				"%maptype% - %mapname%"
+"TF_RichPresence_State_InServer_MapNameOnly"	"%mapname%"
+"TF_RichPresence_State_JoiningServer"			"Tretet einem Server bei"
 
 "ChallengeDetails"					"%s1 als %s2"
 
