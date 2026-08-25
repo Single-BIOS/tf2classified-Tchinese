@@ -5,7 +5,9 @@ on:
     paths:
       - "tf2c_toolslauncher/**"
     branches: [ "main" ]
-    
+  pull_request:
+    paths:
+      - "tf2c_toolslauncher/**"
   workflow_dispatch:
 
 jobs:

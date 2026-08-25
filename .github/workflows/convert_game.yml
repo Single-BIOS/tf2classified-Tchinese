@@ -5,7 +5,9 @@ on:
     paths:
       - "tf2c_strings/**"
     branches: [ "main" ]
-    
+  pull_request:
+    paths:
+      - "tf2c_strings/**"
   workflow_dispatch:
 
 jobs:
