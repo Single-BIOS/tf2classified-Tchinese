@@ -12,6 +12,7 @@ on:
 
 jobs:
   convert:
+    name: Convert to UTF-16LE ( Authoring Tools )
     runs-on: ubuntu-latest
 
     steps:
