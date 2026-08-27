@@ -37,7 +37,7 @@
 // Chat Printouts
 "TF_Team_Balanced"					"%s1 a été déplacé dans l'équipe %s2."
 "TF_Autobalance_TeamChangeDone"		"Vous avez été déplacé dans l'équipe %s1."
-"TF_Name_Change"					"* Le joueur %s1 a changé de nom, il s'appelle maintenant %s2."
+"TF_Name_Change"					"Le joueur %s1 a changé de nom, il s'appelle maintenant %s2."
 "TF_Joined_Game"					"Le joueur %s1 a rejoint la partie."
 "TF_Left_Game"						"%s1 a quitté la partie (%s2)."
 
@@ -172,7 +172,7 @@
 "game_respawntime_in_sec"		"Réapparition dans 1 seconde"
 "game_respawntime_in_secs"		"Réapparition dans %s1 secondes"
 "game_respawntime_stalemate"	"Pas de réapparition en Mort Subite"
-"game_respawntime_next_round"	"Réapparition au prochain round"
+"game_respawntime_next_round"	"Réapparition à la prochaine manche"
 "TF_Arena_NoRespawning"			"Pas de réapparition en Mort Subite"
 
 // ----------------------------------------------------------------
@@ -183,19 +183,21 @@
 "DeathMsg_KilledTeamVIP"		"a tué le VIP des %s1 !"
 
 "DeathMsg_VIP"					"VIP"
-"DeathMsg_ComboKill"			"COMBO !"
+"DeathMsg_ComboKill"			"COMBO MORTEL !"
 "DeathMsg_AirshotKill"			"A ABATTU !"
-"TF_Dominated"				    "A HUMILIÉ"
 
 // Custom suicides
 "DeathMsg_Suicide_Boioing"		"s'est envolé(e) vers d'autres cieux !"
-"DeathMsg_Suicide_Stomp"		"a mangé le sol"
+"DeathMsg_Suicide_Stomp"		"a mangé le carrelage"
 "DeathMsg_Suicide_Disintegrate"	"est parti(e) en fumée"
 "DeathMsg_Suicide_Decapitate"	"a perdu la tête"
 "DeathMsg_Suicide_Gold"			"a changé le plomb en or"
 "DeathMsg_Suicide_Freeze"		"est resté de glace"
 "DeathMsg_Suicide_Fizzle"		"a été électrocuté !"
 "DeathMsg_Suicide_Disappear"	"a disparu"
+
+//Live TF2 Kill feel string fix, do not touch nor remove, thank you.
+"TF_Dominated"				    "A HUMILIÉ"
 
 // ----------------------------------------------------------------
 // Voice Menu
@@ -296,7 +298,7 @@
 "Tip_5_6"		"En tant que Medic, vous ne pouvez pas capturer un point de contrôle ou voler les documents tant que vous êtes invulnérable."
 // Stock
 "Tip_5_7"		"En tant que Medic, gardez en tête que la trajectoire des seringues forme un arc-de-cercle et que celles-ci ont un temps de déplacement. Essayez de prédire le mouvement de l'adversaire afin de ne pas le manquer."
-"Tip_5_8"		"En tant que Medic, utilisez votre Medigun pour soigner vos coéquipiers et dopez-les jusqu'à 150%% de leur santé normale."
+"Tip_5_8"		"En tant que Medic, utilisez votre Medigun pour soigner vos coéquipiers et dopez-les jusqu'à 150 % de leur santé normale."
 "Tip_5_9"		"En tant que Medic, votre indicateur d'ÜberCharge vous prodigue, ainsi qu'au coéquipier que vous soignez avec votre Medigun, quelques instants d'invulnérabilité."
 "Tip_5_10"		"En tant que Medic, votre Scie à amputation peut être utilisée dans un dernier recours où vous vous retrouvez séparé de votre patient."
 // Death & Taxes
@@ -423,14 +425,14 @@
 // Arena
 "Tip_arena_Count"		"9"
 "Tip_arena_1"			"En mode Arena, gardez un œil sur le nombre des joueurs en haut de l'écran. Cela vous permettra de savoir quand votre équipe a l'avantage !"
-"Tip_arena_2"			"En mode Arena, étant donné qu'il y a très peu de trousses de soins, les Medics et les Engineers sont extrêmement précieux. Protégez-les à tout prix (et partagez votre sandvich) !"
+"Tip_arena_2"			"En mode Arena, étant donné qu'il y a très peu de kits de soins, les Medics et les Engineers sont extrêmement précieux. Protégez-les à tout prix (et partagez votre sandvich) !"
 "Tip_arena_3"			"En mode Arena, le point de contrôle au centre de la carte deviendra actif 60 secondes après le début du match. Utilisez-le pour faire sortir les ennemis cachés !"
 "Tip_arena_4"			"En mode Arena, il n'y a pas de réapparition, alors évitez de mourir !"
 "Tip_arena_5"			"En mode Arena, diversifiez votre portfolio ! Essayez de complémenter la composition de votre équipe, ou contrez celle des ennemis."
-"Tip_arena_6"			"En mode Arena, vous pouvez changer de classe seulement au début d'un round, avant l'ouverture des portes."
+"Tip_arena_6"			"En mode Arena, vous pouvez changer de classe seulement au début d'une manche, avant l'ouverture des portes."
 "Tip_arena_7"			"En mode Arena, essayez de rester ensemble avec votre équipe et aidez-vous en cas de danger. Arriver en retard à un combat peut être désavantageux."
-"Tip_arena_8"			"En mode Arena, il est crucial d'empếcher l'équipe ennemie de se soigner. Ciblez les Medics et les distributeurs ennemis, et empếchez l'accès aux kits de soins si possible !"
-"Tip_arena_9"			"En mode Arena, avoir la première victime du round accorde un bonus de coup critique. Si vous le récupérez, utilisez-le au maximum ! Si un ennemi le récupère, restez discret et essayez d'attendre que ça passe."
+"Tip_arena_8"			"En mode Arena, il est crucial d'empêcher l'équipe ennemie de se soigner. Ciblez les Medics et les distributeurs ennemis, et empếchez l'accès aux kits de soins si possible !"
+"Tip_arena_9"			"En mode Arena, effectuer le Premier Sang lors d'une manche accorde un bonus de coup critique. Si vous le récupérez, utilisez-le au maximum ! Si un ennemi le récupère, restez discret et essayez d'attendre que ça passe."
 
 // ----------------------------------------------------------------
 // Stock weapon strings
@@ -450,7 +452,7 @@
 "TF_Weapon_Kukri_Desc"	"Découpé par un tireur d'élite. Quelle ironie."
 // Knife
 "TF_Weapon_Knife"		"Couteau"
-"TF_Weapon_Knife_Desc"	"Pour celui qui aime voir les choses se dénouer."
+"TF_Weapon_Knife_Desc"	"Pour l'homme qui ne papillonne jamais."
 // Fists
 "TF_Weapon_Fists"		"Poings"
 "TF_Weapon_Fists_Desc"	"J'en ai pas encore fini avec toi !"
@@ -873,11 +875,11 @@
 L'équipe RED gagne en empêchant le VIP d'atteindre la zone d'évacuation. L'équipe BLU gagne en escortant le VIP vers la zone d'évacuation.
 
 Note additionnelle :
-La zone d'évacuation ne peut pas s'ouvrir tant que vous ne délivrez pas l'appareil à la salle de contrôle près de la zone d'évacuation.
+La zone d'évacuation restera inaccessible tant que vous ne délivrez pas l'appareil à la salle de contrôle près de la zone d'évacuation.
 
-Si BLU délivre l'appareil, la minuterie de la zone d'évacuation comptera à partir de 60 secondes avant de se fermer à nouveau."
+Si l'équipeBLU délivre l'appareil, la minuterie de la zone d'évacuation comptera à partir de 60 secondes avant de se refermer à nouveau."
 
-"Mineside_setup_goal_red"	"Tuez le VIP pour l'empêcher d'atteindre la zone d'évacuation. Ne le laissez pas prendre l'appareil !"
+"Mineside_setup_goal_red"	"Tuez le VIP pour l'empêcher d'atteindre la zone d'évacuation. Ne le laissez pas prendre possession de l'appareil !"
 "Mineside_setup_goal_blu"	"Escortez le VIP vers la zone d'évacuation. Déposez l'appareil à la salle de contrôle pour ouvrir la porte."
 
 "Mineside_escape_zone"	"le tunnel d'évacuation"
@@ -892,7 +894,7 @@ Si BLU délivre l'appareil, la minuterie de la zone d'évacuation comptera à pa
 
 // vip_harbor
 "Harbor_cap_1"			"le quai de chargement"
-"Harbor_cap_2"			"le front d'eau"
+"Harbor_cap_2"			"le front de mer"
 "Harbor_cap_3"			"l'entrepôt"
 
 // 4dom_krepost
@@ -934,7 +936,7 @@ Les plus vertueux relèveront le défi à l'épée !"
 // dom_railway
 "Railway_cap_A"	"le point A, le garage"
 "Railway_cap_B"	"le point B, la zone de chargment"
-"Railway_cap_C"	"le point C, le parc à bétail"
+"Railway_cap_C"	"le point C, le parc à bestiaux"
 
 // dom_sawtooth
 "Sawtooth_cap_A"	"le point A, la tour de guet"
@@ -949,10 +951,10 @@ Les plus vertueux relèveront le défi à l'épée !"
 // vip_avanti
 "Avanti_red_setup_goal"		"Descendez la pente et tuez le VIP ennemi pour l'empêcher de s'échapper !"
 "Avanti_blue_setup_goal"	"Remontez la pente et escortez le VIP vers la zone d'évacuation !"
-"Avanti_cap_1"				"la réserve"
+"Avanti_cap_1"				"le local de stockage"
 "Avanti_cap_2"				"la terrasse"
 "Avanti_cap_3"				"le clocher"
-"Avanti_cap_4"				"les portes principales"
+"Avanti_cap_4"				"le portail d'entrée"
 
 // vipr_chopper
 "Chopper_cap_A"				"le radar des RED"
@@ -1027,14 +1029,17 @@ Les plus vertueux relèveront le défi à l'épée !"
 // Gamemode strings
 // ----------------------------------------------------------------
 
+// CTF
+"TF_CTF_TeamCannotCapture"	"Votre équipe ne peut pas s'emparer de ce drapeau !"
+
 // Domination
 "default_dom_description"	"Objectif :
-Pour gagner, chaque équipe doit capturer et tenir les points de contrôle pour récupérer des points. Plus vous tenez de points de contrôle, plus vite vous obtenez les points.
+Pour gagner, chaque équipe doit sécuriser et tenir les points de contrôle pour récupérer des points. Plus vous tenez de points de contrôle, plus vite vous gagnerez des points.
 
 Note additionnelle :
-Un point de contrôle en état de capture ne génère pas de points.
+Un point de contrôle contesté ne génère pas de points.
 
-Si votre équipe est en retard, capturer l'ensemble des points de contrôle offrira un bonus de points."
+Si votre équipe est en retard, capturer l'ensemble des points de contrôle offrira un bonus de rattrapage."
 
 "domination_setup_goal"	"Capturez des points pour récupérer du score au fil du temps. En capturer plusieurs augmente vos chances de gagner !"
 
@@ -1237,7 +1242,7 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "Winpanel_GreenMVPs"		"Meilleurs joueurs GRN :"
 "Winpanel_YellowMVPs"		"Meilleurs joueurs YLW :"
 
-"Winreason_KOTHPointHeld"		"Les %s1 ont tenu le point de contrôle jusqu'à la fin du round"
+"Winreason_KOTHPointHeld"		"Les %s1 ont tenu le point de contrôle jusqu'à la fin de la manche"
 "Winreason_PayloadPushed"		"Les %s1 ont poussé la chrge utile jusqu'au terminus"
 "Winreason_ArenaPointCaptured"	"Les %s1 ont capturé le point de contrôle"
 "Winreason_RoundScoreLimit"		"Les %s1 ont atteint %s2 points"
@@ -1345,7 +1350,7 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF2c_KeyboardCategory_UI"  		 	"INTERFACE"
 "TF2c_KeyboardCategory_Extra"			"EXTRA"
 "TF2c_UseDefaultsButton"				"Réinitialiser"
-"TF_ClassSkill_Spy_Spywalk"				"SPY : Marcher normalement en étant déguisé"
+"TF_ClassSkill_Spy_Spywalk"				"SPY : Cavalcade
 "TF_Voice_Menu_0_0"						"Commande vocale : MEDIC!"
 "TF_Voice_Menu_0_1"						"Commande vocale : Merci !"
 "TF_Voice_Menu_1_0"						"Commande vocale : Ils s'amènent !"
@@ -1469,7 +1474,7 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF_SniperBell_Tip"					"Jouer un son lorsque le Fusil du Sniper est entièrement chargé"
 "TF_ZoomSensitivityRatio"			"SNIPER : taux de sensibilité de la visée"
 "TF_ZoomSensitivityRatio_Tip"		"Ajuste la sensibilité en mode visée"
-"TF_SpywalkInverted"				"SPY : marcher à vitesse normale en étant déguisé par défaut"
+"TF_SpywalkInverted"				"SPY : Cavalcade par défaut"
 "TF_SpywalkInverted_Tip"			"Si l'option est activée, vous marcherez à votre vitesse normale même en étant déguisé en une classe plus lente. La touche de marche rapide permettra de marcher à la vitesse de la classe lente à la place"
 "TF_ViewModelCloakTint"				"SPY : teinte du modèle de vue invisible"
 "TF_ViewModelCloakTint_Tip"			"Permet au modèles de vue d'être teintés lorsque vous êtes invisible"
@@ -1693,7 +1698,7 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"Prolongez une ÜberCharge du Vivificateur jusqu'à 12 secondes."
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"					"Il est mort !"
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_DESC"					"Donnez une crise cardiaque à un Heavy ennemi équipé du coup de poing de Tchekhov !"
-"TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"Trous d'air"
+"TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"Baron Rouge"
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_DESC"			"Tuez un ennemi avec un tir en pleine tête pendant qu'il est dans les airs."
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_NAME"				"Barbouze démasqué !"
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"Exposez un Spy invisible utilisant l'Escampette en lui infligant des dégâts."
@@ -1804,8 +1809,6 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF_CTF_PlayerCapture"		"Vous avez SÉCURISÉ les DOCUMENTS de l'ENNEMI."
 
 "TF_Invade_PlayerCapture"		"Vous avez SÉCURISÉ le DRAPEAU."
-
-"game_respawntime_next_manche"		"Réapparition dans : La prochaine manche"
 
 "TF_ClassRecord_MostDominations"	"Humiliation :"
 
