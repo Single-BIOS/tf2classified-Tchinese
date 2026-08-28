@@ -1352,7 +1352,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "GameUI_Off"               				"Off"
 "GameUI_Everyone"               		"Everyone"
 "GameUI_FriendsOnly"               		"Friends Only"
-"GameUI_Alpha"							"Alpha"
+"GameUI_CrosshairAlpha"					"Alpha"
 
 "GameUI_Restart"						"Restart required"
 "GameUI_RestartText"					"Some changes you have made require the game to be restarted:"
