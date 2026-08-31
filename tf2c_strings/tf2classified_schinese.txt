@@ -52,7 +52,7 @@
 
 "TF_Scramble_ScoreDiff"			"队伍将自动重新平衡（双方比分差距过大）"
 "TF_Scramble_NoCap"				"队伍将自动重新平衡（本回合未取得足够的目标进度）"
-"TF_Scramble_WinStreak"			"队伍将自动重新平衡（%s2 已连续获胜 %s1 次）"
+"TF_Scramble_WinStreak"			"队伍将自动重新平衡（ %s1 已连续获胜 %s2 次）"
 "TF_Scramble_Manual_NextRound"	"队伍平衡已手动安排在下一回合"
 "TF_Scramble_NextRound"			"队伍平衡已安排在下一回合"
 "TF_Scramble_Manual_Now"		"正在手动重新平衡队伍"
@@ -1211,8 +1211,9 @@
 "TF_Friends_Status_Online"		                "在线"
 "TF_Friends_Status_Away"		                "离开"
 "TF_Friends_Status_Offline"		                "离线"
+"TF_Friends_InviteServer"						"邀请加入游戏"
 
-"TF_RichPresence_State_InServer"				"%maptype% - %mapname%"
+"TF_RichPresence_State_InServer"				"%mapname% (%maptype%)"
 "TF_RichPresence_State_InServer_MapNameOnly"	"%mapname%"
 "TF_RichPresence_State_JoiningServer"			"加入服务器"
 
@@ -1351,6 +1352,7 @@
 "GameUI_Off"               				"关闭"
 "GameUI_Everyone"               		"所有人"
 "GameUI_FriendsOnly"               		"仅限好友"
+"GameUI_CrosshairAlpha"					"透明度"
 
 "GameUI_Restart"						"需要重启游戏"
 "GameUI_RestartText"					"某些修改过的选项需要你重启游戏后才能生效："
@@ -1519,7 +1521,7 @@
 
 // Launch achievements
 "TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"一场精心策划的事故"
-"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_DESC"			"使用 R.P.G. 发射的火箭弹从远处击杀敌人。"
+"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_DESC"			"使用弧形下坠的火箭弹从远处击杀敌人。"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_NAME"			"世界旅行者"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_DESC"			"在Dustbowl, 2Fort, Badlands（控制点）, 和 Well（夺旗模式），Avanti中进行一场完整的游戏。"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CP_DUSTBOWL"	"Dustbowl"
