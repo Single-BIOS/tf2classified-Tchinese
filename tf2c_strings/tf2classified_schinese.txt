@@ -88,7 +88,7 @@
 "TF_Other_Name"	                    "其他团队"
 
 // Disguise Kit global disguise
-"Hud_Menu_Disguise_GlobalTeam"	    "全局伪装：每名队伍的敌人都会把你当成自己的队友。"
+"Hud_Menu_Disguise_GlobalTeam"	    "全局伪装：每支队伍的敌人都会把你当成自己的队友。"
 
 // Autobalance
 "TF_teamswitch_green"			    "你现在身在绿队！"
@@ -797,7 +797,7 @@
 "Attrib_AltFire_MinicritBoost"						"辅助开火能力：给予队友迷你爆击增益"
 "Attrib_SplitsIntoBomblets"							"爆炸后会分裂成 4 个小炸弹"
 "Attrib_DisabledByWrench"							"可以被扳手拆除"
-"Attrib_Coilgun"									"蓄满力的子弹会在墙壁上反弹，蓄力时间过长还会在手中爆炸"
+"Attrib_Coilgun"									"充满能的子弹会在墙壁上反弹，充能时间过长还会在手中爆炸"
 "Attrib_DamageAffectedByCharge"						"伤害受能量条影响"
 "Attrib_JumpPadNoUpgrade"							"跳板无法升级"
 "Attrib_AltFire_HasteBoost"							"辅助开火能力：给予队友急速增益"
