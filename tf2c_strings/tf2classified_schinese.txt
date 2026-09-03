@@ -1191,7 +1191,7 @@
 "TF_Menu_Options"			"选项"
 "TF_Menu_Addons"			"附加插件（即将到来！）"
 
-"TF_Menu_Quit"				"退出游戏"
+"TF_Menu_QuitGame"			"退出游戏"
 "TF_Menu_Disconnect"		"断开连接"
 
 "TF_Menu_Blog"				"官方网站"
@@ -1334,6 +1334,7 @@
 "TF2c_OptionCategory_Replay"			"录制"
 "TF2c_OptionCategory_DemoSupport"		"DEMO"
 "TF2c_OptionCategory_Communication"		"交流"
+"TF2c_OptionCategory_Discord"			"DISCORD"
 
 "TF2c_OptionCategory_CustomizationMultiplayer"			"定制化"
 "TF2c_OptionCategory_Network"							"网络"
@@ -1352,13 +1353,14 @@
 "GameUI_Off"               				"关闭"
 "GameUI_Everyone"               		"所有人"
 "GameUI_FriendsOnly"               		"仅限好友"
-"GameUI_CrosshairAlpha"					"透明度"
 
 "GameUI_Restart"						"需要重启游戏"
 "GameUI_RestartText"					"某些修改过的选项需要你重启游戏后才能生效："
 "GameUI_OptionsRestart_Revert"			"恢复修改"
 
 "GameUI_Disconnect_TooManyCommands"		"已断开连接：指令发送请求次数过多。"
+
+"GameUI_DontShowThisAgain"               	"不再显示这个"
 
 // Combat
 "TF2C_Option_DamageFeedback"				"启用命中反馈音效"
@@ -1417,6 +1419,8 @@
 "TF_OverlayToastInsetVert"        "Steam 游戏内通知显示垂直线方向"
 "TF_TargetID_Floating_Health"	  "目标ID - 启用悬浮生命值图标"
 "TF_TargetID_Floating_Health_Tip" "若选中此选项，会在角色上方显示生命值图标。"
+"TF_TargetID_Floating_Health_Offset" 		"悬浮生命值图标位置"
+"TF_TargetID_Floating_Health_Offset_Tip" 	"悬浮生命值图标与目标顶部的位置距离"
 "TF_TargetID_Alpha"				  "目标ID - 名称面板背景透明度"
 "TF_TargetID_Alpha_Tip"			  "设置目标ID的名称面板背景透明度。"
 "TF_TargetID_Show_Avatars"		  "目标ID - 在目标ID上显示头像"
@@ -1435,10 +1439,14 @@
 "TF_GlowEffects_Tip" 			  "若选中此选项，高亮光圈会被启用，并在比赛时高亮出目标（如推车、夺旗模式情报公文包和VIP还有重生后的队友）。"
 
 // ViewModel
-"TF_ViewModelFOV"				"模型视图视场"
-"TF_FlipViewModels"				"翻转模型视图"
-"TF_InvisibleArms"				"启用模型视图隐形手臂"
-"TF_ViewModelOpacity"			"模型视图不透明度"
+"TF_ViewModelFOV"				    "模型视图视场"
+"TF_FlipViewModels"				    "翻转模型视图"
+"TF_InvisibleArms"				    "启用模型视图隐形手臂"
+"TF_ViewModelOpacity"			    "模型视图不透明度"
+"TF2C_Option_ViewmodelOffset"		"启用模型视图位置修改"
+"TF2C_Option_ViewmodelOffsetX"		"模型视图位置 X"
+"TF2C_Option_ViewmodelOffsetY"		"模型视图位置 Y"
+"TF2C_Option_ViewmodelOffsetZ"		"模型视图位置 Z"
 
 // Misc
 "TF_ClassAutoKill"					"选择兵种后强制重生"
@@ -1453,11 +1461,18 @@
 "TF2c_Option_Proximity_Voice_Local"	"启用距离式语音聊天。"
 
 // Multiplayer
+"GameUI_CrosshairAlpha"				"透明度"
 "TF_MessageAlert"				    "启用文字聊天提示音效"
 "TF_MessageAlert_Tip"			    "若选中此选项，当收到聊天消息时将播放音效。"
 "TF_MessageVolume"				    "文字聊天提示音效音量"
 "TF_ChatCloseOnSend"				"发送消息后关闭聊天界面"
 "TF_ChatCloseOnSend_Tip"			"若选中此选项，当你发送聊天消息时会自动关闭聊天界面。"
+"TF2C_Option_Discord_ServerInfo"	"显示服务器信息"
+"TF2C_Option_Discord_ServerInfo_Tip" "若选中此选项，则会在 Discord 游戏状态上显示当前服务器信息。"
+"TF2C_Option_Discord_MapInfo"		"显示地图信息"
+"TF2C_Option_Discord_MapInfo_Tip"	"若选中此选项，则会在 Discord 游戏状态上显示当前地图信息。"
+"TF2C_Option_Discord_ClassInfo"		"显示兵种信息"
+"TF2C_Option_Discord_ClassInfo_Tip"	"若选中此选项，则会在 Discord 游戏状态上显示当前兵种信息。"
 "TF_DownloadFilter_Title"			"从服务器上下载自定义文件的权限"
 "GameUI_DownloadFilter_All"			"允许所有自定义文件"
 "GameUI_DownloadFilter_NoSounds"	"无自定义音效"
@@ -1471,12 +1486,8 @@
 "TF2c_Option_ClassicShading_Tip"	"若选中此选项，将对玩家模型材质启用 full-lambertian 着色。"
 "TF2c_Option_BloomScale"	        "泛光效果（此选项会影响性能。1.0为默认值）"
 "TF2c_Option_FramerateLimit"		"游戏帧数限制"
- "TF2c_Option_Brightness"			"亮度等级"
+"TF2c_Option_Brightness"			"亮度等级"
 "TF2c_Option_Brightness_Tip"		"[仅限全屏] 调整显示器伽马值"
-
-// TF30
-"TF_EnableClassicVision"			"启用经典视觉效果"
-"TF_EnableClassicVision_Tip"		"使用军团要塞 30 周年纪念内容。\n如果在游戏中启用并切换，此更改将在断开服务器连接后或服务器切换地图时才会生效。"
 
 // ----------------------------------------------------------------
 // Stats
