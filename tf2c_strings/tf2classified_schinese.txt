@@ -232,7 +232,7 @@
 "Tip_2_Count"	"11"
 // Generic
 "Tip_2_1"		"作为狙击手，瞄准敌人的头部以造成爆击伤害。"
-"Tip_2_2"		"作为狙击手，按 %attack2% 即可缩放狙击步枪的瞄准镜和狩猎左轮步枪的瞄准范围。"
+"Tip_2_2"		"作为狙击手，按 %attack2% 即可缩放狙击步枪的瞄准镜和狩猎转轮步枪的瞄准范围。"
 // Stock
 "Tip_2_3"		"作为狙击手，你开镜瞄准的时间越长，就能造成越大的伤害。"
 "Tip_2_4"		"作为狙击手，完全充能的狙击步枪爆头可以一击必杀大多数兵种。"
@@ -241,8 +241,8 @@
 // Death & Taxes
 "Tip_2_7"		"作为狙击手，猎人短弓更适合近距离作战，但是对付远处的敌人则会显得不太精准。"
 "Tip_2_8"		"作为狙击手，如果猎人短弓蓄力时间超过 5 秒，你的射击精准度会大打折扣。按 %attack2% 重置弓箭。"
-"Tip_2_9"		"作为狙击手，狩猎左轮步枪在中距离作战下是一个不错的选择。用它来快速造成伤害，同时快速进出前线。"
-"Tip_2_10"		"作为狙击手，使用狩猎左轮步枪瞄准时的移动速度比使用其他主武器时更快。"
+"Tip_2_9"		"作为狙击手，狩猎转轮步枪在中距离作战下是一个不错的选择。用它来快速造成伤害，同时快速进出前线。"
+"Tip_2_10"		"作为狙击手，使用狩猎转轮步枪瞄准时的移动速度比使用其他主武器时更快。"
 "Tip_2_11"		"作为狙击手，敲鱼棒会击退成群结队的敌人并对他们造成失血伤害。用它来击退逼近的敌人。"
 
 // Soldier
@@ -267,7 +267,7 @@
 // Demoman
 "Tip_4_Count"	"15"
 // Generic
-"Tip_4_1"		"作为爆破手，你可以按 %attack2% 远程引爆粘弹或消除地雷发射器发射的地雷。"
+"Tip_4_1"		"作为爆破手，你可以按 %attack2% 远程引爆粘弹或消除布雷装置发射的地雷。"
 "Tip_4_2"		"作为爆破手，在使用黏性炸弹发射器时，你可以按 %attack% 发射黏性炸弹，然后按 %attack2% 引爆。在脚下引爆爆炸物来跳得更高。"
 "Tip_4_3"		"作为爆破手，在爆炸跳跃时蹲下，可以跳得更高。"
 // Stock
@@ -280,7 +280,7 @@
 "Tip_4_9"		"作为爆破手，把你的集束炸药扔到控制点上来清除敌人。"
 "Tip_4_10"		"作为爆破手，你的集束炸药可以被敌方工程师拆除。将其投掷进步哨枪群之前记得留意敌方工程师！"
 "Tip_4_11"		"作为爆破手，炮艇能极大地减少由爆炸跳跃带来的伤害。这在占据有利点位和移动的时候尤为重要。"
-"Tip_4_12"		"作为爆破手，地雷发射器可以发射感应式地雷，当敌人站在地雷附近时就会引爆。使用它进行自动化防御！"
+"Tip_4_12"		"作为爆破手，布雷装置可以发射感应式地雷，当敌人站在地雷附近时就会引爆。使用它进行自动化防御！"
 // Double Down
 "Tip_4_13"		"作为爆破手，独眼巨炮的榴弹只会在你引爆时爆炸，在引爆时把握时机进行爆炸跳跃或者用来布置致命陷阱！"
 "Tip_4_14"		"作为爆破手，独眼巨炮会瞬间引爆你自己发射的爆炸物和集束炸药。大胆发动进攻，试着使用连续爆破击杀敌人！"
@@ -317,7 +317,7 @@
 "Tip_6_3"		"作为机枪手，你的移动速度是所有兵种中最慢的，在与高机动兵种交战时一定要时刻保持警惕！"
 "Tip_6_4"		"作为机枪手，你是医生的最佳拍挡。站在医生能清楚看到你的位置，以保持得到治疗。"
 "Tip_6_5"		"作为机枪手，你是间谍的首要目标。利用你的转轮机枪让他们无处遁形，并且时刻留意自己的身后。"
-"Tip_6_6"		"作为机枪手，按住 %attack2% 能让转轮机枪保持转动，准备好痛宰敌人。"
+"Tip_6_6"		"作为机枪手，按住 %attack2% 能让转轮机枪或高射炮保持预热状态，随时准备好痛宰靠近的敌人。"
 // Stock
 "Tip_6_7"		"作为机枪手，你的转轮机枪会消耗大量弹药。拾取掉落的武器和弹药包来补充弹药。"
 "Tip_6_8"		"作为机枪手，跳起来在空中预热机枪不会影响你的速度。利用这个技巧给墙角后面的敌人一个惊喜！"
@@ -484,7 +484,7 @@
 "TF_Weapon_SMG_Desc"	"现在怎么样？距离近了我们都更危险。"
 // Syringe Gun
 "TF_Weapon_SyringeGun"		"注射枪"
-"TF_Weapon_SyringeGun_Desc"	"噢，你可真是个不错的针线盒！"
+"TF_Weapon_SyringeGun_Desc"	"噢，你可真是个不错的废针回收盒！"
 // Rocket Launcher
 "TF_Weapon_RocketLauncher"		"火箭发射器"
 "TF_Weapon_RocketLauncher_Desc"	"最完美的武器献给最好的士兵！"
@@ -531,7 +531,7 @@
 "TF_Weapon_Kritzkrieg_Desc"	"来吧，弄点伤员出来，这样咱们才都有钱赚，对吧？"
 // Überspritze
 "TF_Weapon_Uberspritze"			"过载充能针筒"
-"TF_Weapon_Uberspritze_Desc"	"噢，别再扭来扭去了，这是为了医学做出贡献！"
+"TF_Weapon_Uberspritze_Desc"	"噢，别再扭来扭去了，这可是为了医学献身！"
 // Flare Gun
 "TF_Weapon_FlareGun"		"信号枪"
 "TF_Weapon_FlareGun_Desc"	"有人着火了！快点发出求救信号！"
@@ -558,13 +558,13 @@
 "TF_Weapon_NailGun_Desc"	"是啊，我很快就丢掉那份工作了。"
 // R.P.G.
 "TF_Weapon_RPG"			"R.P.G."
-"TF_Weapon_RPG_Desc"	"看到这些火箭从筒口出来的轨迹了吗？小子，它渴望自由，而上帝实现了它。"
+"TF_Weapon_RPG_Desc"	"看到这枚火箭从筒口探出来了吗？小子，它渴望自由。而上帝见证，它将如愿以偿。"
 // Hunting Revolver
-"TF_Weapon_HuntingRevolver"			"狩猎左轮步枪"
+"TF_Weapon_HuntingRevolver"			"狩猎转轮步枪"
 "TF_Weapon_HuntingRevolver_Desc"	"专为更具进攻性的打法而生。"
 // Fishwhacker
 "TF_Weapon_Fishwhacker"			"敲鱼棒"
-"TF_Weapon_Fishwhacker_Desc"	"稳住它，伙计。它容易飞出木屑。"
+"TF_Weapon_Fishwhacker_Desc"	"拿稳了，伙计。它容易飞出木屑。"
 // Tranquilizer Gun
 "TF_Weapon_TranquilizerGun"			"麻醉枪"
 "TF_Weapon_TranquilizerGun_Desc"	"祝你好梦，亲爱的。"
@@ -575,19 +575,19 @@
 "TF_Weapon_Coilgun"			"线圈枪"
 "TF_Weapon_Coilgun_Desc"	"不是牛排，照样可以把你烤得滋滋作响。"
 // Mine Layer
-"TF_Weapon_MineLayer"		"地雷发射器"
+"TF_Weapon_MineLayer"		"布雷装置"
 "TF_Weapon_MineLayer_Desc"	"欸，当心脚下，呵呵...."
 // Shock Therapy
 "TF_Weapon_ShockTherapy"		"电击治疗仪"
-"TF_Weapon_ShockTherapy_Desc"	"离远点！"
+"TF_Weapon_ShockTherapy_Desc"	"让开！"
 
 // ----------------------------------------------------------------
 // Fight or Flight weapon strings
 // ----------------------------------------------------------------
 
 // L'escampette
-"TF_Weapon_Lescampette"			"逃生怀表"
-"TF_Weapon_Lescampette_Desc"	"我们还需要再快一点。"
+"TF_Weapon_Lescampette"			"脱身怀表"
+"TF_Weapon_Lescampette_Desc"	"速战速决。"
 // Chekhov's Punch
 "TF_Weapon_ChekhovsPunch"		"契诃夫之拳"
 "TF_Weapon_ChekhovsPunch_Desc"	"别哭嘛！你在机枪手的生活里起码还有点叙事意义呢。"
@@ -596,7 +596,7 @@
 "TF_Weapon_TwinBarrel_Desc"	"（私自改装将不提供售后保修。）"
 // Anti-Aircraft Cannon
 "TF_Weapon_AntiAircraftCannon"		"高射炮"
-"TF_Weapon_AntiAircraftCannon_Desc"	"机枪手应该捡起哪个部位寄去给你的妈妈？"
+"TF_Weapon_AntiAircraftCannon_Desc"	"机枪手应该挑哪一块寄去给你的妈妈？"
 // PDA: Jump Pad
 "TF_Weapon_PDAJumpPad"		"建造工具：跳板"
 "TF_Weapon_PDAJumpPad_Desc"	"相信我，伙计！这个会让你大吃一惊。"
@@ -634,14 +634,14 @@
 "TF_Weapon_Cane"					"手杖"
 "TF_Weapon_Chains"					"锁链"
 "TF_Weapon_CigaretteCase"			"...香烟包？"
-"TF_Weapon_Club"					"反曲刀"
+"TF_Weapon_Club"					"棍棒"
 "TF_Weapon_DoubleBarrelShotgun"		"双管霰弹枪"
 "TF_Weapon_EMPGrenadeLauncher"		"电磁榴弹发射器"
 "TF_Weapon_Grenade"					"手榴弹"
 "TF_Weapon_HealGrenadeLauncher"		"治疗榴弹发射器"
 "TF_Weapon_LunchBox"				"午餐盒"
 "TF_Weapon_PDA"						"PDA"
-"TF_Weapon_ProximityMineLauncher"	"感应式地雷发射器"
+"TF_Weapon_ProximityMineLauncher"	"感应式布雷装置"
 "TF_Weapon_Scythe"					"镰刀"
 "TF_Weapon_Syringe"					"注射器"
 "TF_Weapon_Taser"					"电击枪"
