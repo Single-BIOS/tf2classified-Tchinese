@@ -374,8 +374,8 @@
 "Tip_8_12"		"作为间谍，你的麻醉枪会使目标减速，并降低他们的武器开火速度。这有助于为逃跑创造机会。"
 "Tip_8_13"		"作为间谍，你的麻醉枪发射的飞镖会使你的目标受到的近战伤害转为爆击。利用这一点让你的队友群殴他，或者自行解决他。"
 // Fight or Flight
-"Tip_8_14"		"作为间谍，逃生怀表可让你快速进出敌方基地。使用它快速逃跑或者快速潜入！"
-"Tip_8_15"		"作为间谍，在装备逃生怀表时受到伤害会失去隐身能量。远离交火地带。"
+"Tip_8_14"		"作为间谍，脱身怀表可让你快速进出敌方基地。使用它快速逃跑或者快速潜入！"
+"Tip_8_15"		"作为间谍，在装备脱身怀表时受到伤害会失去隐身能量。远离交火地带。"
 
 // Engineer
 "Tip_9_Count"	"20"
@@ -457,7 +457,7 @@
 "TF_Weapon_Fists_Desc"	"我跟你还没完！"
 // Shovel
 "TF_Weapon_Shovel"		"铁锹"
-"TF_Weapon_Shovel_Desc"	"在战争期间亲手埋葬你的敌人然后在和平时期把他们从坟墓里挖出来。"
+"TF_Weapon_Shovel_Desc"	"在战争期间亲手埋葬你的敌人然后在和平时期去盗他们的墓。"
 // Wrench
 "TF_Weapon_Wrench"		"扳手"
 "TF_Weapon_Wrench_Desc"	"我啥事都会一点。"
@@ -469,13 +469,13 @@
 "TF_Weapon_Shotgun_Desc_Engineer"	"有时候，必须你亲自出马。"
 "TF_Weapon_Shotgun_Desc_Soldier"	"我的霰弹枪不想让你活着，你这个臭蛆！"
 "TF_Weapon_Shotgun_Desc_Heavy"		"机枪手会凑合着用的。"
-"TF_Weapon_Shotgun_Desc_Pyro"		"用这个来对着别人说话。"
+"TF_Weapon_Shotgun_Desc_Pyro"		"用这玩意替我开口。"
 // Scattergun
 "TF_Weapon_Scattergun"		"猎枪"
 "TF_Weapon_Scattergun_Desc"	"放松伙计，只是一点小擦伤而已！"
 // Sniper Rifle
 "TF_Weapon_SniperRifle"			"狙击步枪"
-"TF_Weapon_SniperRifle_Desc"	"出色地完成工作。"
+"TF_Weapon_SniperRifle_Desc"	"能完工就行。"
 // Minigun
 "TF_Weapon_Minigun"			"转轮机枪"
 "TF_Weapon_Minigun_Desc"	"“萨莎”都不会听机枪手的话，你觉得她会听你的？"
@@ -500,7 +500,7 @@
 // Pistol
 "TF_Weapon_Pistol"					"手枪"
 "TF_Weapon_Pistol_Desc_Engineer"	"开始跳舞吧，小子。"
-"TF_Weapon_Pistol_Desc_Scout"		"所有人都在射程外，直到他们再也不在了。"
+"TF_Weapon_Pistol_Desc_Scout"		"所有人都在射程外，直到我杀了他们。"
 // Revolver
 "TF_Weapon_Revolver"		"左轮手枪"
 "TF_Weapon_Revolver_Desc"	"当隐身不再是唯一选择时。"
@@ -567,7 +567,7 @@
 "TF_Weapon_Fishwhacker_Desc"	"拿稳了，伙计。它容易飞出木屑。"
 // Tranquilizer Gun
 "TF_Weapon_TranquilizerGun"			"麻醉枪"
-"TF_Weapon_TranquilizerGun_Desc"	"祝你好梦，亲爱的。"
+"TF_Weapon_TranquilizerGun_Desc"	"做你的白日梦去吧，亲爱的。"
 // Dynamite Pack
 "TF_Weapon_DynamitePack"		"集束炸药"
 "TF_Weapon_DynamitePack_Desc"	"你明天就知道什么叫碎尸万段了。"
@@ -599,7 +599,7 @@
 "TF_Weapon_AntiAircraftCannon_Desc"	"机枪手应该挑哪一块寄去给你的妈妈？"
 // PDA: Jump Pad
 "TF_Weapon_PDAJumpPad"		"建造工具：跳板"
-"TF_Weapon_PDAJumpPad_Desc"	"相信我，伙计！这个会让你大吃一惊。"
+"TF_Weapon_PDAJumpPad_Desc"	"相信我，伙计！这个绝对会让你一飞冲天。"
 // Harvester
 "TF_Weapon_Harvester"		"收割者"
 "TF_Weapon_Harvester_Desc"	"不要问丧钟为谁而鸣。"
@@ -1577,7 +1577,7 @@
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"死亡航空"
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_DESC"			"爆头击杀一名在空中的敌人。"
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_NAME"				"猎杀法国佬"
-"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"通过伤害使用逃生怀表的隐身敌方间谍来暴露他的踪迹。"
+"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"通过伤害使用脱身怀表的隐身敌方间谍来暴露他的踪迹。"
 "TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_NAME"			"企业家"
 "TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"以平民身份赢得一轮护送VIP模式而不死。"
 "TF2C_ACHIEVEMENT_VIPR_TIME_NAME"						"快速逃生通道"
