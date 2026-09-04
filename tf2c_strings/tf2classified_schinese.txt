@@ -500,7 +500,7 @@
 // Pistol
 "TF_Weapon_Pistol"					"手枪"
 "TF_Weapon_Pistol_Desc_Engineer"	"开始跳舞吧，小子。"
-"TF_Weapon_Pistol_Desc_Scout"		"所有人都在射程外，直到我杀了他们。"
+"TF_Weapon_Pistol_Desc_Scout"		"所有人都以为在射程外，直到我将枪口对准他们。"
 // Revolver
 "TF_Weapon_Revolver"		"左轮手枪"
 "TF_Weapon_Revolver_Desc"	"当隐身不再是唯一选择时。"
