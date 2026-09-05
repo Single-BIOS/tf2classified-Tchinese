@@ -267,7 +267,7 @@
 // Demoman
 "Tip_4_Count"	"15"
 // Generic
-"Tip_4_1"		"作为爆破手，你可以按 %attack2% 远程引爆粘弹或消除布雷装置发射的地雷。"
+"Tip_4_1"		"作为爆破手，你可以按 %attack2% 远程引爆粘弹或消除地雷布设器发射的地雷。"
 "Tip_4_2"		"作为爆破手，在使用黏性炸弹发射器时，你可以按 %attack% 发射黏性炸弹，然后按 %attack2% 引爆。在脚下引爆爆炸物来跳得更高。"
 "Tip_4_3"		"作为爆破手，在爆炸跳跃时蹲下，可以跳得更高。"
 // Stock
@@ -280,7 +280,7 @@
 "Tip_4_9"		"作为爆破手，把你的集束炸药扔到控制点上来清除敌人。"
 "Tip_4_10"		"作为爆破手，你的集束炸药可以被敌方工程师拆除。将其投掷进步哨枪群之前记得留意敌方工程师！"
 "Tip_4_11"		"作为爆破手，炮艇能极大地减少由爆炸跳跃带来的伤害。这在占据有利点位和移动的时候尤为重要。"
-"Tip_4_12"		"作为爆破手，布雷装置可以发射感应式地雷，当敌人站在地雷附近时就会引爆。使用它进行自动化防御！"
+"Tip_4_12"		"作为爆破手，地雷布设器可以发射感应式地雷，当敌人站在地雷附近时就会引爆。使用它进行自动化防御！"
 // Double Down
 "Tip_4_13"		"作为爆破手，独眼巨炮的榴弹只会在你引爆时爆炸，在引爆时把握时机进行爆炸跳跃或者用来布置致命陷阱！"
 "Tip_4_14"		"作为爆破手，独眼巨炮会瞬间引爆你自己发射的爆炸物和集束炸药。大胆发动进攻，试着使用连续爆破击杀敌人！"
@@ -330,7 +330,7 @@
 // Fight or Flight
 "Tip_6_14"		"作为机枪手，你的高射炮能造成高爆发伤害，是应对聚集敌人和清理掩体背后目标的理想武器。"
 "Tip_6_15"		"作为机枪手，高射炮能对空中的敌人造成迷你爆击。用它击落士兵或者使用跳板的敌人。"
-"Tip_6_16"		"作为机枪手，契诃夫之拳能在成功击中目标时储存最多 3 次爆击。你可以将存储的爆击与其他武器配合使用！"
+"Tip_6_16"		"作为机枪手，契诃夫之拳能在成功击中目标时储存最多 3 次爆击。你可以将存储的爆击与任意武器搭配使用！"
 "Tip_6_17"		"作为机枪手，契诃夫之拳会加强你受到敌人近战攻击时的伤害。在近战中要小心谨慎。"
 
 // Pyro
@@ -500,7 +500,7 @@
 // Pistol
 "TF_Weapon_Pistol"					"手枪"
 "TF_Weapon_Pistol_Desc_Engineer"	"开始跳舞吧，小子。"
-"TF_Weapon_Pistol_Desc_Scout"		"所有人都以为在射程外，直到我将枪口对准他们。"
+"TF_Weapon_Pistol_Desc_Scout"		"所有人都以为在射程外，直到他们再也不在了。"
 // Revolver
 "TF_Weapon_Revolver"		"左轮手枪"
 "TF_Weapon_Revolver_Desc"	"当隐身不再是唯一选择时。"
@@ -544,7 +544,7 @@
 // Gunboats
 "TF_Weapon_Gunboats"				"炮艇"
 "TF_Weapon_Gunboats_Desc_Soldier"	"一双灌铅的鞋！某个想在军队体检中作弊的人才会穿这个。"
-"TF_Weapon_Gunboats_Desc_Demoman"	"这靴子看着太棒了，就算是钉子扎进脚底你也感觉不到！"
+"TF_Weapon_Gunboats_Desc_Demoman"	"这靴子看着太棒了，就算是钉子扎进脚底你也感觉不到。"
 
 // ----------------------------------------------------------------
 // Death & Taxes weapon strings
@@ -567,7 +567,7 @@
 "TF_Weapon_Fishwhacker_Desc"	"拿稳了，伙计。它容易飞出木屑。"
 // Tranquilizer Gun
 "TF_Weapon_TranquilizerGun"			"麻醉枪"
-"TF_Weapon_TranquilizerGun_Desc"	"做你的白日梦去吧，亲爱的。"
+"TF_Weapon_TranquilizerGun_Desc"	"祝你好梦，亲爱的。"
 // Dynamite Pack
 "TF_Weapon_DynamitePack"		"集束炸药"
 "TF_Weapon_DynamitePack_Desc"	"你明天就知道什么叫碎尸万段了。"
@@ -575,7 +575,7 @@
 "TF_Weapon_Coilgun"			"线圈枪"
 "TF_Weapon_Coilgun_Desc"	"不是牛排，照样可以把你烤得滋滋作响。"
 // Mine Layer
-"TF_Weapon_MineLayer"		"布雷装置"
+"TF_Weapon_MineLayer"		"地雷布设器"
 "TF_Weapon_MineLayer_Desc"	"欸，当心脚下，呵呵...."
 // Shock Therapy
 "TF_Weapon_ShockTherapy"		"电击治疗仪"
@@ -641,7 +641,7 @@
 "TF_Weapon_HealGrenadeLauncher"		"治疗榴弹发射器"
 "TF_Weapon_LunchBox"				"午餐盒"
 "TF_Weapon_PDA"						"PDA"
-"TF_Weapon_ProximityMineLauncher"	"感应式布雷装置"
+"TF_Weapon_ProximityMineLauncher"	"感应式地雷布设器"
 "TF_Weapon_Scythe"					"镰刀"
 "TF_Weapon_Syringe"					"注射器"
 "TF_Weapon_Taser"					"电击枪"
